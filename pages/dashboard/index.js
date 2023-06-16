@@ -35,7 +35,7 @@ export default function RPGpage() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#005',
+    backgroundColor: '#222',
     alignItems: 'center',
     justifyContent: 'center',
   },

@@ -14,10 +14,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='login' component={LoginPage}/>
+        <Stack.Screen name='login' component={LoginPage} options={{headerShown:false}}/>
         <Stack.Screen name='cadastro' component={CadastroPage}/>
         <Stack.Screen name='recover' component={RecoverPage}/>
-        <Stack.Screen name='dashboard' component={RPGpage}/>
+        <Stack.Screen name='dashboard' component={RPGpage} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
