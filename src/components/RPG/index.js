@@ -16,3 +16,4 @@ export default function Rpg(props){
         </View>
     )
 }
+//bug free

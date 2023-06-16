@@ -38,5 +38,6 @@ const style=StyleSheet.create({
         bottom: 0
     }
 })
+//bug free
 
 export default style
